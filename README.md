@@ -1,13 +1,14 @@
-## Certified Tech Developer - Projeto Integrador
+# Certified Tech Developer - Projeto Integrador
+
 
 [Teste cases cliente do projeto](https://docs.google.com/spreadsheets/d/1IiRT9BXeX-Nr-B9dTnOLizWAK0BdyccLG4VzkGXOS-k/edit#gid=410827794)
 
 [Teste cases servidor do projeto](https://docs.google.com/spreadsheets/d/1TdrmN7V7t4LWWf41K-Bp86uV3oO8y715GNBNzZAON-M/edit#gid=1113470552)
 
 
-<div> align="center"
+
 ![gravacaoDeTela-vrumVrum](https://github.com/Narayana-Brahmajyoti/pi-aluguel-de-carros/assets/89326709/366b8fc7-cf44-48e8-b8b4-933533476384)
-</div>
+
 
 
 ## Descrição
@@ -63,6 +64,7 @@ Esperamos que este projeto possa ser útil para a sua compreensão destas tecnol
 - [Miguel Oduber](https://www.linkedin.com/in/migueloduber/)
 - [Narayana Brahmajyoti](https://www.linkedin.com/in/narayanabrahmajyotidev)
 - [Sankler Bergman](https://www.linkedin.com/in/sankler-bergman/)
+
 
 [VrumVrum.pptx](https://github.com/Narayana-Brahmajyoti/pi-aluguel-de-carros/files/14397470/VrumVrum.pptx)
 
