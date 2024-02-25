@@ -1,0 +1,187 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.container {
+  flex: 1;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+code {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+.h1 {
+  font-size: 24px;
+}
+h2,
+.h2 {
+  font: 20px;
+}
+h3,
+.h3 {
+  font-size: 16px;
+}
+
+h4,
+.h4 {
+  font-size: 14px;
+}
+
+.btn1 {
+  font-size: 14px;
+}
+.btn2 {
+  font-size: 16px;
+}
+
+.text-color1 {
+  color: #1dbeb4;
+}
+.text-color2 {
+  color: #383b58;
+}
+.text-color3 {
+  color: #545776;
+}
+.text-color4 {
+  color: #f3f1ed;
+}
+.bg-color1,
+.btn:disabled {
+  background-color: #1dbeb4 !important;
+  border-color: #1dbeb4 !important;
+}
+.bg-color2 {
+  background-color: #383b58;
+}
+.bg-color2 {
+  background-color: #545776;
+}
+.bg-color3 {
+  background-color: #f3f1ed;
+}
+
+.bg-color1:hover {
+  background-color: #1dbeb4;
+}
+/* Header */
+@media (min-width: 992px) {
+  .card.mb-4 {
+    max-height: 256px;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+}
+.search-bar h1 {
+  font-size: 36px;
+}
+/* Login */
+.btn-login {
+  margin: 0 auto;
+}
+/* Lista por tipo */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+h5.text-end {
+  color: #545776;
+}
+.main-content {
+  padding-bottom: 120px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card img {
+  width: 100%;
+  /* height: 183px; */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.card-text {
+  margin: 10px 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #212529;
+}
+.footer p {
+  margin-top: 1rem;
+}
+.icon-social {
+  font-size: 24px;
+}
+
+/* calendario */
+.search-bar .rdrDateRangePickerWrapper {
+  position: absolute;
+  z-index: 99999;
+}
+.search-bar .rdrDefinedRangesWrapper {
+  width: 0;
+}
+
+ul.caracteristicas.d-flex.justify-content-around {
+  list-style: none;
+}
+
+h3.caracteristicas {
+  border-bottom: 1px solid #1dbeb4;
+}
+
+.botao-reserva {
+border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.calendar .rdrDefinedRangesWrapper 
+{width: unset;}
